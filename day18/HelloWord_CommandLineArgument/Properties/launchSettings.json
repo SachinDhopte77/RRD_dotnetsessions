@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HelloWord_CommandLineArgument": {
+      "commandName": "Project",
+      "commandLineArgs": "sachin venkat akhilesh minu"
+    }
+  }
+}
