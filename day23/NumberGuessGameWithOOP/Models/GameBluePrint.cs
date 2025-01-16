@@ -19,6 +19,7 @@ namespace NumberGuessGameWithOOP.Models
 
         public void GameRule()
         {
+            //Rule
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Welcome to Number Guessing Game. Please note the rules of game below :");
             Console.WriteLine("Game Rule 1: You can select number of guess attempt you like? range is from 3 to 10");

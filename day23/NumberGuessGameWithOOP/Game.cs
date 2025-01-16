@@ -7,8 +7,8 @@ namespace NumberGuessGameWithOOP
         static void Main(string[] args)
         {
             GameBluePrint Game = new GameBluePrint();
-            Game.GameRule();
-            GameSetup(Game);
+            Game.GameRule();// Game Rule
+            GameSetup(Game);//Game Setup
         }
         private static void GameSetup(GameBluePrint Game)
         {
