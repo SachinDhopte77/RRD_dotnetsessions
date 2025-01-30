@@ -40,7 +40,7 @@ namespace AccountCommonLib.Models
             
             if (_balance - amount < MIN_BALANCE)
             {
-                throw new InsufficientFundsException(new Account(AccountNumber, Name, Balance));
+                throw new InsufficientFundsException(new Account(this));
             }
 
             _balance = _balance - amount;
