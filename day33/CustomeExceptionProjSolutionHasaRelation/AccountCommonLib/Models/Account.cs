@@ -12,7 +12,6 @@ namespace AccountCommonLib.Models
         private readonly string _name;
         private double _balance;
         private const double MIN_BALANCE = 500;
-        InsufficientFundsException _InsufficientFundsException;
 
         public Account(int accountNumber, string name, double balance)
         {
@@ -40,8 +39,8 @@ namespace AccountCommonLib.Models
             
             if (_balance - amount < MIN_BALANCE)
             {
-                var accountEx = new Account(AccountNumber, Name, Balance);
-                throw new InsufficientFundsException(accountEx);
+                //var accountEx = new Account(AccountNumber, Name, Balance);
+                throw new InsufficientFundsException(new Account(AccountNumber, Name, Balance));
             }
 
             _balance = _balance - amount;
