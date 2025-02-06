@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLCommonLib", "XMLCommonLib\XMLCommonLib.csproj", "{6E508DEE-BD8F-464E-8555-1745F324F02B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLSerialization", "XMLSerialization\XMLSerialization.csproj", "{2C6A79CB-5B19-4F74-ACC7-01FBE5F0F4D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLDeserialization", "XMLDeserialization\XMLDeserialization.csproj", "{A4845172-D041-492B-9C53-58B1643B896A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E508DEE-BD8F-464E-8555-1745F324F02B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E508DEE-BD8F-464E-8555-1745F324F02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E508DEE-BD8F-464E-8555-1745F324F02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E508DEE-BD8F-464E-8555-1745F324F02B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C6A79CB-5B19-4F74-ACC7-01FBE5F0F4D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C6A79CB-5B19-4F74-ACC7-01FBE5F0F4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C6A79CB-5B19-4F74-ACC7-01FBE5F0F4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C6A79CB-5B19-4F74-ACC7-01FBE5F0F4D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4845172-D041-492B-9C53-58B1643B896A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4845172-D041-492B-9C53-58B1643B896A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4845172-D041-492B-9C53-58B1643B896A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4845172-D041-492B-9C53-58B1643B896A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
