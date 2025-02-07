@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EngineeringCommonLib", "EngineeringCommonLib\EngineeringCommonLib.csproj", "{A492384E-C3ED-46AE-86CF-559DB3F7AD77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EngineeringApp", "EngineeringApp\EngineeringApp.csproj", "{AA32A520-2F8D-4397-B4D6-802916F1CA85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A492384E-C3ED-46AE-86CF-559DB3F7AD77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A492384E-C3ED-46AE-86CF-559DB3F7AD77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A492384E-C3ED-46AE-86CF-559DB3F7AD77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A492384E-C3ED-46AE-86CF-559DB3F7AD77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA32A520-2F8D-4397-B4D6-802916F1CA85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA32A520-2F8D-4397-B4D6-802916F1CA85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA32A520-2F8D-4397-B4D6-802916F1CA85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA32A520-2F8D-4397-B4D6-802916F1CA85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDCoreLibrary", "FDCoreLibrary\FDCoreLibrary.csproj", "{F412C17B-64EF-4C8D-A66C-C9C75CC87AEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AxisBankFDApp", "AxisBankFDApp", "{2E57A75C-01BA-434D-8BBC-65DA14C6C1ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxisBankFDApp", "AxisBankFDApp\AxisBankFDApp.csproj", "{53CA158D-2C3F-47AD-8BC6-7BCE733B0A94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HDFCBankFDApp", "HDFCBankFDApp", "{E5C87CB6-FFEC-4D99-8214-3310461BFD84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDFCBankFDApp", "HDFCBankFDApp\HDFCBankFDApp.csproj", "{32506161-F85A-48B2-82C4-A0185A82100A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F412C17B-64EF-4C8D-A66C-C9C75CC87AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F412C17B-64EF-4C8D-A66C-C9C75CC87AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F412C17B-64EF-4C8D-A66C-C9C75CC87AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F412C17B-64EF-4C8D-A66C-C9C75CC87AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53CA158D-2C3F-47AD-8BC6-7BCE733B0A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53CA158D-2C3F-47AD-8BC6-7BCE733B0A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53CA158D-2C3F-47AD-8BC6-7BCE733B0A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53CA158D-2C3F-47AD-8BC6-7BCE733B0A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32506161-F85A-48B2-82C4-A0185A82100A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32506161-F85A-48B2-82C4-A0185A82100A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32506161-F85A-48B2-82C4-A0185A82100A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32506161-F85A-48B2-82C4-A0185A82100A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53CA158D-2C3F-47AD-8BC6-7BCE733B0A94} = {2E57A75C-01BA-434D-8BBC-65DA14C6C1ED}
+		{32506161-F85A-48B2-82C4-A0185A82100A} = {E5C87CB6-FFEC-4D99-8214-3310461BFD84}
+	EndGlobalSection
+EndGlobal
