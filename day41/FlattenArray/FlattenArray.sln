@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlattenArray", "FlattenArray.csproj", "{2712CF9B-529E-4DAF-A97A-3F59D6688A1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2712CF9B-529E-4DAF-A97A-3F59D6688A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2712CF9B-529E-4DAF-A97A-3F59D6688A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2712CF9B-529E-4DAF-A97A-3F59D6688A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2712CF9B-529E-4DAF-A97A-3F59D6688A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A05E2AC1-1B3D-4248-912D-1399FEF6D7A3}
+	EndGlobalSection
+EndGlobal
