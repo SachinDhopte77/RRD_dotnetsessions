@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginMiddlewareExcerciseClassOriented", "LoginMiddlewareExcerciseClassOriented.csproj", "{8D470828-FE73-4C3A-8968-A42BB6EC9567}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D470828-FE73-4C3A-8968-A42BB6EC9567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D470828-FE73-4C3A-8968-A42BB6EC9567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D470828-FE73-4C3A-8968-A42BB6EC9567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D470828-FE73-4C3A-8968-A42BB6EC9567}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAC81CDC-9FE1-4D7F-ABE9-59019A08E2A7}
+	EndGlobalSection
+EndGlobal
