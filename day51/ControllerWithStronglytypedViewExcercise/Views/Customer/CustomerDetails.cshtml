@@ -1,0 +1,46 @@
+﻿@using ControllerWithStronglytypedViewExcercise.Models;
+@model CustomerAddressInfo
+<html>
+<head>
+    <style>
+        th, td {
+          border-style:solid;
+          border-color: #96D4D4;
+        }
+    </style>
+</head>
+<body>
+<div>
+  <h2>Customer Address Detail</h2>
+  <table border="1" >
+    <thead>
+        <tr>
+            <th>Information Type</th>
+            <th>Details</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>@Model.Name</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>@Model.Email</td>
+        </tr>
+        <tr>
+            <td>Phone No</td>
+            <td>@Model.Phone</td>
+        </tr>
+          @foreach(var item in Model.Addresses)
+            {
+            <tr>
+          
+              <td>Address @item.ID</td>
+              <td>@item.Address1 @item.Address2 Pincode- @item.Pincode</td>
+          
+           </tr>
+            }
+    </thead>
+</table>
+</div>
+</body>
+</html>
