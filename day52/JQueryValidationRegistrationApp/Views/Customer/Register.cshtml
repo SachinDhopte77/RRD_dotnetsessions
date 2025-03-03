@@ -1,0 +1,91 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>JQuery Validation Code</title>
+        <style>
+            body input,body button{
+                font-size:1.2em;
+            }
+            form{width:40%; margin:10px auto;background:#fff; padding:60px;border-radius:10px}
+            form>div{
+                margin:1em;
+            }
+            input{
+                width:100%;padding:0.2em;
+            }
+            button{
+                padding:0.2em;width:100%; background:#6FBBF9;color:#fff;border:none;height:50px;margin-top:30px;
+            }
+            lable{display:block;}
+            .invalid{
+                background:red;
+                color:white;
+            }
+            .error{
+                color:red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align:center; color:#fff; font:50px; margin:60px">JQuery Validation</h1>
+    <form action="/customer/Register" method="post">
+        <div>
+            <lable onformchange="name">Name</lable>
+            <input type="text" name="name" id="name" required data-required-message="Name is Mandatory" />
+        </div>
+        <div>
+            <lable onformchange="email">Email</lable>
+            <input type="email" name="email" id="email" required data-required-message="Email is Mandatory" />
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+        </form>
+        <div>
+        <h1 style="text-align:center">@ViewBag.UserMessage</h1>
+        <h1 style="text-align:center">@ViewBag.Message</h1>
+        </div>
+         
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+        function validate() {
+            var errorNode = this.parentNode.querySelector(".error"),
+            span=document.createElement("span")
+
+            this.classList.remove("invalid");
+            if (errorNode) {
+                errorNode.parentNode.removeChild(errorNode);
+            }
+            if (!this.validity.valid) {
+                this.classList.add("invalid");
+                this.parentNode.appendChild(span);
+                span.classList.add("error");
+                span.innerHTML = this.getAttribute(this.validity.valueMissing ? "data-required-message" : "data-type-message");
+            }
+            };
+            var form = document.querySelector("form"),
+                inputs = form.querySelectorAll("input");
+            for (i = 0; i < inputs.length; i++) 
+            { 
+                inputs[i].addEventListener("blur", validate);
+                inputs[i].addEventListener("invalid", validate);
+            };
+            form.addEventListener("invalid", function (event) {
+                event.preventDefault();
+            }, true);
+            document.querySelector("form").addEventListener("submit", function (event) {
+                if (this.checkValidity()) {
+                   
+                }
+                else {
+                    event.preventDefault();
+               
+                }
+            });
+        </script>
+    </body>
+</html>
